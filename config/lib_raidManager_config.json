@@ -1,0 +1,21 @@
+{
+    "RAID_DB_DIR":"kubejs/database/raids_db.json",
+    "CREATE_RAID_EVENT_KEY":"create",
+    "DELETE_RAID_EVENT_KEY":"delete",
+    "EDIT_RAID_EVENT_KEY":"edit",
+    "ERROR":{
+        "RAID_TYPE_EXECUTION":"El tipo de ejecucion introducida no es aceptable.",
+        "RAID_DO_NOT_EXIST":"Esta raid no existe en las configuraciones.",
+        "NOT_VALID_PARAMETERS":"El parametro no es un objeto.",
+        "NOT_VALID_PLAYER_ID":"No se introdujo un id de jugador valido.",
+        "PLAYER_ALREADY_IN_RAID":"Este jugador se encuentra dentro de una raid o en espera de una.",
+        "NOT_FOUND_PARAMETER":"Parametro no encontrado."
+    },
+    "CLAIM_TIME":"76:0:0",
+    "RAIDS":{
+        "DIR":"kubejs/config/raidsList/",
+        "LIST":[
+            "fire_dragon"
+        ]
+    }
+}

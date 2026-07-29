@@ -1,0 +1,41 @@
+{
+    "FIRE_DRAGON":{
+        "WORLD":"fire_dragon_raid.json",
+        "MIN_PLAYERS":1,
+        "MAX_PLAYERS":4,
+        "TIME":"0:05:0",
+        "AREA":100,
+        "ROOMS":[
+            {
+                "TYPE":"SPAWN",
+                "STRUCTURE":"",
+                "PATHS":[
+                    {
+                        "x":0,
+                        "y":0
+                    }
+                ],
+                "ENTITIES":[]
+            },
+            {
+                "TYPE":"END",
+                "STRUCTURE":"",
+                "PATHS":[
+                    {
+                        "x":0,
+                        "y":0
+                    }
+                ],
+                "ENTITIES":[
+                    {
+                        "ID":"iceandfire:fire_dragon",
+                        "TYPE":"boss",
+                        "DATA":{
+                            
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
