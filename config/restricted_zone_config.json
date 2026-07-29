@@ -1,0 +1,11 @@
+{
+    "CREATE_EVENT_KEY":"create",
+    "DELETE_EVENT_KEY":"delete",
+    "RESTRICTED_ZONE_BLOCK":"kubejs:restricted_zone",
+    "ERROR":{
+        "TYPE_EXECUTION":"El tipo de ejecucion introducida no es aceptable.",
+        "CALLBACK":"El callback recibido no es una funcion.",
+        "CUSTOMID_NOT_EXIST":"No se declaro un customID.",
+        "CUSTOMID_EXIST":"Este customID ya existe."
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "raids:fire_dragon_raid",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "layers": [],
+            "biome": "minecraft:the_void",
+            "structure_overrides":[]
+        }
+    }
+}
