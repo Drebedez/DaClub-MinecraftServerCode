@@ -1,6 +1,7 @@
 # DaClub-MinecraftServerCode
 Repositorio cuyo contenido incluye contenido agregado, fix de mods y funciones para el servidor de Da Club.
 Tiene la configuracion de probejs para la extension de VScode.
+<<<<<<< HEAD
 
 Se ejecuta en Minecraft 1.21.1 con NeoForge.
 
@@ -23,3 +24,5 @@ config - Almacenamiento de configuraciones de Kubejs. Este tambien es el unico d
 exported - Los volcados de datos, como los atlas de texturas, terminan aquí.
 
 Tu puedes encontrar tipos especificos de registros en el directorio: logs/kubejs
+=======
+>>>>>>> 423d4275775f3617355ba92b3a05dfc0c9ca6f3e
