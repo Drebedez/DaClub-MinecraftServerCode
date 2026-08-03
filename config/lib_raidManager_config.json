@@ -3,13 +3,25 @@
     "CREATE_RAID_EVENT_KEY":"create",
     "DELETE_RAID_EVENT_KEY":"delete",
     "EDIT_RAID_EVENT_KEY":"edit",
+    "EDIT_OPTION_KEYS":{
+        "SET":{
+            "OWNER":"owner",
+            "RUN":"run"
+        },
+        "ADD":{
+            "PLAYER":"player"
+        }
+    },
     "ERROR":{
         "RAID_TYPE_EXECUTION":"El tipo de ejecucion introducida no es aceptable.",
         "RAID_DO_NOT_EXIST":"Esta raid no existe en las configuraciones.",
         "NOT_VALID_PARAMETERS":"El parametro no es un objeto.",
         "NOT_VALID_PLAYER_ID":"No se introdujo un id de jugador valido.",
         "PLAYER_ALREADY_IN_RAID":"Este jugador se encuentra dentro de una raid o en espera de una.",
-        "NOT_FOUND_PARAMETER":"Parametro no encontrado."
+        "NOT_FOUND_PARAMETER":"Parametro no encontrado.",
+        "INCOMPLETED_OBJECT":"Objeto incompleto/valido.",
+        "NOT_BOOLEAN":"El valor no es de tipo booleano.",
+        "REMOVE_OWNER_FROM_RAID":"No se puede remover al dueño de la raid de la lista de participantes."
     },
     "CLAIM_TIME":"76:0:0",
     "RAIDS":{

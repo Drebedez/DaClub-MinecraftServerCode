@@ -2,10 +2,9 @@
     "compilerOptions": {
         "plugins": [],
         "checkJs": false,
-        // Fully TS-compatible typing generation is not possible,
-        // but turning off skipLibCheck can help debugging
         "skipLibCheck": true,
         "target": "ES2022",
+        "resolveJsonModule": true,
         "lib": [
             "ES2022"
         ],
@@ -29,7 +28,7 @@
             "@special/*": [
                 "../../.probe/@special/*"
             ]
-        },
+        }
     },
     "typeAcquisition": {
         "enable": false
@@ -39,6 +38,7 @@
         "./**/*.d.ts",
         "../../.probe/@package/**/*.d.ts",
         "../../.probe/@side-only/server/**/*.d.ts",
-        "../../.probe/@special/**/*.d.ts"
+        "../../.probe/@special/**/*.d.ts",
+        "../../global.d.ts"
     ]
 }
