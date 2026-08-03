@@ -70,7 +70,6 @@ function restrictedZoneEvent(exec, customID, callback){
 }
 
 /**
- * @todo Hacer que detecte el bloque de la cabeza.
  * Ver por cada tick del juego si una entidad o jugador esta en un bloque de zona restringida.
  */
 ServerEvents.tick(event => {
