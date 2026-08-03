@@ -24,4 +24,8 @@ ServerEvents.commandRegistry(event => {
                 })
             )
     )
+});
+
+global.lib.restrictedZoneEvent("create", "test", (entity)=>{
+    entity.teleportTo(entity.x, entity.y+10, entity.z);
 })

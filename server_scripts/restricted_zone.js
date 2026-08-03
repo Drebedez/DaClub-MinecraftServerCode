@@ -70,17 +70,16 @@ function restrictedZoneEvent(exec, customID, callback){
 }
 
 /**
+ * @todo Hacer que detecte el bloque de la cabeza.
  * Ver por cada tick del juego si una entidad o jugador esta en un bloque de zona restringida.
  */
 ServerEvents.tick(event => {
-    event.server.levels.forEach(level => {
-        level.entities.forEach(entity => {
-            if(
-                entity.block.id == ScriptConfig_rz.RESTRICTED_ZONE_BLOCK ||
-                entity.eyeBlock == ScriptConfig_rz.RESTRICTED_ZONE_BLOCK
-            )
-            restrictedZoneEventsList.forEach(x=>x(entity));
-        });
+    event.server.entities.forEach(entity => {
+        if (
+            entity.block.id == ScriptConfig_rz.RESTRICTED_ZONE_BLOCK || 
+            entity.block.offset(0, Math.floor(entity.eyeHeight), 0) == ScriptConfig_rz.RESTRICTED_ZONE_BLOCK
+        )
+            restrictedZoneEventsList.forEach(x => x.callback(entity));
     });
 });
 

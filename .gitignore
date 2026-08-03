@@ -1,5 +1,5 @@
-<<<<<<< HEAD
+#Evitar hacer pull a la base de datos dinamica.
 database/
-=======
-database/
->>>>>>> 423d4275775f3617355ba92b3a05dfc0c9ca6f3e
+
+#Evitar hacer pull a codigo usado en purebas.
+test.js
